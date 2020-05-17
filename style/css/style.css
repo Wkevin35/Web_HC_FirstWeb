@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+  }
+  
+  body {
+    background-color: #3683B3;
+  }
+  
+  form {
+    background-color: #30BFA9;
+    width: 600px;
+    padding: 30px;
+    margin: 50px auto 0;
+  }
+  
+  label {
+    color: #732606;
+  }
+  input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  select {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  fieldset {
+    padding: 10px;
+    border-color: gray;
+  }
+  
+  #div-money {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+  }
+  .div-content {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+  
+  #output {
+    border: 1px solid gray;
+    background: white;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  #agree{
+    padding: 0;
+    margin: 0;
+    width: 5%;
+  }
+  
+  #button {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
+  }
