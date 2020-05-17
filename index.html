@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="./style/css/style.css">
-</head>
-<body>
-    <form oninput="output.value = parseInt(money.value)+parseInt(equ.value)">
-        <label for="name">姓名：</label>
-        <input type="text" id="name">
-        <label for="time">填表時間：</label>
-        <input type="time" id="time">
-        <fieldset>
-          <legend>汽車選項</legend>
-          <label for="date">購買日期</label>
-          <input type="date" id=date>
-          <label for="brand">汽車品牌</label>
-          <select name="brand" id="brand">
-            <option disabled selected>
-               -- 請選擇品牌 --
-            </option>
-            <option value="BMW">BMW</option>
-            <option value="BENZ">BENZ</option>
-            <option value="Maserati">Maserati</option>
-          </select>
-          <label for="money">汽車預算</label>
-          <div id="div-money">
-              <span>30萬</span>
-              <input type="range" id="money" min=30 max=80 value="50">
-              <span class="right">80萬</span>  
-          </div>
-          
-          <label for="equ">配備預算</label>
-          <div class="div-content">
-            <input type="number" id="equ" min=5 max=50 step=5 value="50">
-            <span class="right">萬</span>  
-          </div>
-          
-          <label for="output">汽車總額</label>
-          <div class="div-content">
-            <output type="number" id="output" for="money equ"></output>
-            <span class="right">萬</span>  
-          </div>  
-       </fieldset>
-       <input type="checkbox" id="agree">我同意本平台所有規定
-       <div id="button">
-         <input type="reset"  id="reset">
-         <input type="submit" id="submit">  
-       </div> 
-       
-     </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>丸龜製麵</title>
+
+    <link rel="stylesheet" href="./style/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <span>丸龜製麵</span>
+      </div>
+      <div id="guid"> 
+        <a href="#section1">關於丸龜</a>
+        <a href="#section2">最新消息</a>
+        <a href="#section3">聯絡我們</a>
+      </div>
+    </nav>
+    <div id="banner"></div>
+
+    <section id="section1">
+      <h1>關於丸龜</h1>
+      <p>
+        丸亀製麵於2013年正式登陸台灣， 不論日本當地、以至全球，丸亀製麵都佔據領先地位。<br>
+        堅持以現點現做的做法及讚岐式點餐，提供顧客最新鮮、 最道地的烏龍麵。<br>
+        經營理念：「創造深受更多顧客長期喜愛的餐廳」這就是我們唯一理念，今後也不會改變。<br>
+        すべては、お客様のよろこびのために。 <br>
+        Simply For Your Pleasure.
+      </p>
+    </section>
+
+    <section id="section2">
+      <h1>最新消息</h1>
+      <ul>
+        <li>【四月滿意調查表抽獎公佈】</li>
+        <li>【2020母親節套餐5/5開始於全門市販售】</li>
+        <li>【三月滿意調查表抽獎公佈】</li>
+        <li>【新門市開幕】中壢大潤發門市４／２１（二）新開幕</li>
+        <li>【開幕活動】歡慶新光三越台北站前門市４／１５重新開幕</li>
+      </ul>
+    </section>
+
+    <section id="section3">
+      <h1>聯絡我們</h1>
+      <p>
+        如果您在本公司用餐上有任何寶貴的意見和建議，或是有任何資訊想了解，
+        歡迎您利用本網站─『聯絡我們』留言反映，或以電郵方式與我們聯絡。
+        我們必將虛心接受並檢討改進，衷心期盼您再度光臨與指教，謝謝。 台灣東利多
+        丸亀製麵 敬上 電郵：service@toridoll.com.tw 客服專線：0800-000-063
+      </p>
+    </section>
+  </body>
 </html>
